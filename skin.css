@@ -1,0 +1,17 @@
+.trActive {
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.hideRow {
+    display: none;
+}
+
+.oddLog {
+    background-color: lightyellow;
+}
+
+form.newTaskForm input.ng-invalid,
+form.newTaskForm textarea.ng-invalid {
+    border-color: red;
+}
